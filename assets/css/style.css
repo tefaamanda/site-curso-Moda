@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root {
+    --section1: white;
+    --section2: #f6f5fa;
+    --borda: #b86778;
+    --botao: #fdbfd6;
+    --fontcont: Arial, Helvetica, sans-serif;
+    --fonttit: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.cabecalho {
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+}
+
+.logo {
+    width: 140px;
+}
+
+.curso {
+    font-family: var(--fontcont);
+    color: var(--borda);
+    font-weight: bold;
+}
+
+.curso:hover  {
+    color: black;
+}
+
+.tel {
+    font-family: var(--fontcont);
+}
+
+.texto-cabecalho {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+
+
+.banner {
+    background-image: url(../img/runway-cabecalho.png);
+    padding: 280px;
+    padding-right: 880px;
+    padding-bottom: 320px;
+    position: absolute;
+}
+
+.titulo-banner {
+    color: white;
+    font-family: var(--fonttit);
+    font-size: 50px;
+    padding-top: 30px;
+    margin: -180px;
+}
+
+.text-banner {
+    color: white;
+    font-family: var(--fontcont);
+    font-size: 20px;
+    margin: -180px;
+    padding-top: 210px;
+}
+
+.forms-area {
+    position: sticky;
+    margin-left: 700px;
+    margin-top: 150px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 20px;
+    background-color: var(--borda);
+    border-color: var(--borda);
+}
+
+.forms {
+    text-align: start;
+}
+
+.tit-forms {
+    font-family: var(--fonttit);
+    padding-bottom: 15px;
+    font-size: 30px;
+    text-align: center;
+    color: var(--section2);
+}
+
+.tit-nome {
+    font-family: var(--fonttit);
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--section2);
+}
+
+.input-nome {
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-color: var(--borda);
+}
+
+.tit-email {
+    font-family: var(--fonttit);
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--section2);
+}
+
+.input-email {
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-color: var(--borda);
+}
+
+.tit-tel {
+    font-family: var(--fonttit);
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--section2);
+}
+
+.input-tel {
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-color: var(--borda);
+}
+
+.bot-forms {
+    position: absolute;
+    margin-left: -205px;
+    margin-top: 380px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 10px;
+    font-family: var(--fontcont);
+    font-weight: bold;
+    background-color: var(--botao);
+    border-color: var(--botao);
+    color: var(--borda);
+}
+
+.bot-forms:hover {
+    background-color: var(--section2);
+    color: black;
+    border-color: var(--section2);
+}
+
+
+.beneficios {
+    padding-top: 180px;
+    display: flex;
+    background-color: var(--section2);
+    padding-bottom: 40px;
+    padding-left: 40px;
+    gap: 40px;
+}
+
+.tit-beneficios {
+    font-family: var(--fonttit);
+    font-size: 23px;
+}
+
+.cont-beneficios {
+    font-family: var(--fontcont);
+    font-size: 16px;
+}
+
+
+
+
+.paraquem-sec {
+    display: flex;
+}
+
+.tit-paraquem {
+    font-family: var(--fonttit);
+    text-align: center;
+    padding-top: 30px;
+    font-size: 35px;
+    color: var(--borda);
+}
+
+
+
+.certificado-img {
+    width: 500px;
+}
